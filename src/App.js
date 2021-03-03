@@ -6,6 +6,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div className="card text-white bg-success mb-3" style={{maxWidth: '18rem'}}>
+          <div className="card-header">Bootstrap!</div>
+          <div className="card-body">
+            <h5 className="card-title">Yeh! It's me, Bootstrap!</h5>
+            <p className="card-text">Test...</p>
+          </div>
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
